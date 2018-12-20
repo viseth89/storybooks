@@ -3,9 +3,9 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-// app.get('/', (req, res) => {
-//   res.send('it works')
-// })
+app.get('/', (req, res) => {
+  res.send('it works')
+})
 
 const port = process.env.Port || 5000
 
